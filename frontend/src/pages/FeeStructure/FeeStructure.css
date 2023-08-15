@@ -1,0 +1,31 @@
+/* .fee-container {
+
+  max-width: 1000px;
+} */
+
+.edit {
+  /*action button */
+  padding: 3px 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+.edit:hover {
+  background-color: lightskyblue;
+}
+
+.table-container h5 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+}
+/*...............pay now button .............*/
+.paynow {
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 4px 6px;
+  border-color: lightskyblue;
+}
+.paynow:hover{
+  background-color: lightskyblue
+  ;
+}

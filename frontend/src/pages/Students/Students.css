@@ -1,0 +1,31 @@
+/*..................Dropdown btn ....................*/
+.dropbtn {
+  border-radius: 5px;
+  padding: 5px 4px;
+  border: none;
+  background-color: lightskyblue;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+/*........................create student .......................*/
+.submitBtn {
+  margin-top: 15px;
+}
+.createStudent-Container h4 {
+  margin-top: 10px;
+}
+.studentForm {
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  width: 40%;
+}
+.studentForm h3 {
+  text-align: center;
+}

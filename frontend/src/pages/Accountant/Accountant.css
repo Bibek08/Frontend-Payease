@@ -1,0 +1,153 @@
+.accountant-container {
+  margin-top: 35px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.accountantdetailtop {
+  display: flex;
+  justify-content: space-between;
+}
+.accountantdetailtop h5 {
+  margin-left: 20px;
+}
+.accountantdetailtop button {
+  border-radius: 5px;
+  padding: 4px 6px;
+  margin-top: 5px;
+  margin-right: 20px;
+  background-color: lightskyblue;
+  border-style: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.accountant-table {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 97%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.accountant-table thead,
+.accountant-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+.accountant-table thead {
+  background-color: lightskyblue;
+}
+.accountant-table button {
+  margin-right: 5px;
+  border-radius: 3px;
+}
+/*..............edit button ............*/
+.acc_edit {
+  border-color: #90bdff;
+  padding: 2px 5px;
+}
+.acc_edit:hover {
+  background-color: #90bdff;
+}
+/*..................delete button .............*/
+.acc_dlt {
+  border-color: red;
+  padding: 2px 5px;
+  margin-left: 5px;
+}
+.acc_dlt:hover {
+  background-color: red;
+}
+.acc_details {
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-style: none;
+  padding: 3px 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/*............for creating accountant after clicking create accountant button..........*/
+
+/*.............for back link .........*/
+.backtoAcc a {
+  text-decoration: none;
+  color: black;
+}
+
+.createAcc-container h5 {
+  margin-top: 15px;
+  text-align: center;
+}
+.createAcc-details-container {
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  background-color: #f4f4f4;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/*............for creating accountant details.............*/
+
+.create-AccName {
+  margin-left: 30px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.create-AccAddress {
+  margin-left: 12px;
+  margin-top: 20px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.create-AccGender {
+  margin-left: 17px;
+  margin-top: 20px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.create-AccEmail {
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.create-AccContact {
+  margin-left: 5px;
+  margin-top: 20px;
+  padding: 4px 6px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+/*................createacc button...........*/
+.createAcc {
+  border-radius: 5px;
+  /* max-width: 15%; */
+  padding: 4px 6px;
+  margin-top: 20px;
+  /* margin-left: 130px; */
+  border-color: lightskyblue;
+  cursor: pointer;
+}
+.createAcc:hover {
+  background-color: lightskyblue;
+}
+
+@media (max-width: 768px) {
+  .accountant-table{
+    width: 90%;
+  }
+  .createAcc-details-container{
+    width: 70%;
+  }
+}

@@ -1,0 +1,129 @@
+/* .................form............. */
+.paymentMethods {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.paymentform {
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.backtoacc{
+  text-decoration: none;
+  color:black;
+
+}
+/* ...................form top content............. */
+.bill-topnav {
+  background-color: lightskyblue;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+  border-bottom: 2px solid black;
+  line-height: 2px;
+}
+.bill-topnav h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* ............................form main content................... */
+.form-content {
+  display: flex;
+  justify-content: space-between;
+  line-height: 25px;
+}
+.form-content label {
+  margin-left: 20px;
+}
+.divright {
+  margin-right: 10px;
+}
+/* ............username............. */
+.Uname {
+  border-radius: 5px;
+  margin-left: 37px;
+  margin-top: 10px;
+}
+/*...............student id ..............*/
+.S_id {
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 5px;
+}
+/*................s-DOB...................*/
+.DOB {
+  border-radius: 5px;
+  margin-left: 105px;
+  margin-top: 5px;
+}
+/* ..................student number ................ */
+.phoneNumber {
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+/*..............student email............*/
+.s-email {
+  border-radius: 5px;
+  margin-left: 100px;
+  margin-top: 5px;
+}
+/*...............Guardian Name.................*/
+.Guardian {
+  border-radius: 5px;
+  margin-left: 27px;
+  margin-top: 5px;
+}
+/*.............Guardin number............*/
+.G-number {
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+/*............Guardian Email...............*/
+.G-email {
+  border-radius: 5px;
+  margin-left: 33px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.savebutton {
+  padding: 3px 8px;
+  border-radius: 5px;
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.savebutton:hover {
+  background-color: lightskyblue;
+}
+
+/*..............Buttons....................*/
+.methods {
+  text-decoration: underline;
+  text-align: center;
+}
+.pay-button {
+  margin-top: 20px;
+  text-align: center;
+}
+.upload {
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-right: 2px;
+  margin-left: 30px;
+}
+.upload:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}
+.qr {
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin-left: 20px;
+}
+.qr:hover {
+  cursor: pointer;
+  background-color: lightskyblue;
+}

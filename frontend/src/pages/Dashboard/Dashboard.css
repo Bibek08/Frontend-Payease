@@ -1,0 +1,24 @@
+.dashboard-container {
+  display: flex;
+  /* margin-left: 400px; */
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.piechart {
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.barchart {
+  margin-top: 70px;
+}
+@media (max-width: 768px) {
+  .searchbox{
+    margin-left: 10px;
+  
+  }
+  .container-nav h6{
+    margin-right:5px;
+
+  }
+}
