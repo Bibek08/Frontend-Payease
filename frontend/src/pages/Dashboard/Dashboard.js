@@ -129,20 +129,13 @@ const Dashboard = () => {
         <div className="pie-container">
           <div className="row">
             <div className="col-md-6">
-              <PieChart
+              {/* <PieChart
                 className="piechart"
                 width={500}
                 height={500}
                 aspectRatio={1}
               >
-                {/* <Pie data={data} dataKey="students" outerRadius={200}>
-                  {data.map((entry) => (
-                    <Cell
-                      key={`cell-${entry.name}`}
-                      fill={semesterColors[entry.name]}
-                    />
-                  ))}
-                </Pie> */}
+            
                 <Pie
                   data={data}
                   dataKey="students"
@@ -188,7 +181,7 @@ const Dashboard = () => {
                   offset={-10}
                   style={{ textAnchor: "middle", fontSize: 14 }}
                 />
-              </PieChart>
+              </PieChart> */}
             </div>
             <div className=" col-md-6">
               <BarChart

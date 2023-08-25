@@ -1,13 +1,15 @@
+/*........rest of the css............*/
 .login-template {
   display: flex;
+  background-color: #224952;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  align-items: center;
-  background-color: blue;
+ 
 }
+
 .login-container {
-  border: 1px solid red;
+  border: 1px solid blue;
 }
 .front-img {
   width: 100%;
@@ -26,13 +28,12 @@
   align-items: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
- .formdetail h3 {
+.formdetail h3 {
   text-align: center;
-  background-color:#f4f4f4;
+  background-color: #f4f4f4;
   padding: 6px 6px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-
 }
 
 form .Uemail {
@@ -54,6 +55,7 @@ form .Upwd {
   text-align: center;
   margin-top: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
 }
 .login {
   text-decoration: none;
@@ -79,6 +81,16 @@ form .Upwd {
 .signin:hover {
   background-color: green;
   color: white;
+}
+.backtohomepage a {
+  text-decoration: none;
+  color: black;
+}
+.movetohome {
+  margin-left: 100px;
+}
+.backtohomepage a:hover {
+  color: blue;
 }
 
 /*.............animation...............*/

@@ -1,5 +1,6 @@
 import React from "react";
 import BoyStudent from "../PageImages/BoyStudent.png";
+import { Link } from "react-router-dom";
 import "./profile.css";
 function Profile() {
   //for uploading photo ...........
@@ -17,9 +18,7 @@ function Profile() {
 
   return (
     <>
-      
-
-   
+      <Link to="/Dashboard" className="prfl-back">Back</Link>
       {/*................Rest of the content................*/}
       <div className="profile-container" onSubmit={handleSubmit}>
         <div className="row">
