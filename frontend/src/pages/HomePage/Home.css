@@ -10,6 +10,10 @@
 .hometop-container h3 {
   margin-left: 120px;
 }
+.hometop-container a{
+  text-decoration: none;
+  color: black;
+}
 .home-links {
   display: flex;
   justify-content: flex-end;
@@ -25,11 +29,9 @@
   color: blue;
 }
 .gotologin {
-  background-color: skyblue;
+  border-color: blue;
   padding: 3px 10px;
   border-radius: 6px;
-  border: none;
-  color: black;
 }
 /*................home container.........*/
 .home-container {
@@ -63,7 +65,10 @@
 }
 /*.............about us ...........*/
 .aboutus-container {
-  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 150px;
   background-color: #f4f4f4;
 }
 .aboutus-img {
@@ -88,19 +93,21 @@
 .contact-container {
   background-color: #f4f4f4;
   padding-top: 250px;
+  font-size: 20px;
 }
 .contact-paragraphs {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 150px;
-  padding-top: 150px;
+  padding-top: 180px;
   padding-left: 150px;
 }
 .home-contact-img {
   width: 400px;
   border-radius: 300px;
   margin-left: 150px;
+  margin-top: 90px;
   padding-bottom: 50px;
 }
 
@@ -114,7 +121,7 @@
   justify-content: space-around;
   align-items: center;
   background-color: #f4f4f4;
-  padding-top: 150px;
+  padding-top: 250px;
   padding-bottom: 100px;
 }
 .members-container h3 {

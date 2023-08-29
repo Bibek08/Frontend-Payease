@@ -30,7 +30,10 @@ function Home() {
       <div className="hometop-container">
         <div className="row">
           <div className="col-md-6">
-            <h3>PayEase</h3>
+            <Link to="/" onClick={scrollToHome}>
+              {" "}
+              <h3>PayEase</h3>
+            </Link>
           </div>
           <div className="col-md-6">
             <div className="home-links">
@@ -59,9 +62,7 @@ function Home() {
             </div>
             <p className="home-paragraph">
               {" "}
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-              commodi at debitis id similique, sed quis error? Fuga, eos est
-              quae quam quos atque id ut quo, doloremque quasi quod?
+              "Say goodbye to long queues and hello to easy online fee payments through PayEase - your gateway to efficiency."
             </p>
           </div>
           <div className="col-md-6 ">
@@ -69,7 +70,7 @@ function Home() {
           </div>
         </div>
       </div>
-      {/*.................contacts...........*/}
+      {/*.................about us...........*/}
       <div className="aboutus-container" id="aboutus">
         <div className="row">
           <div className="col-md-6">
