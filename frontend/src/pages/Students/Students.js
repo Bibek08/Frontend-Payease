@@ -110,8 +110,8 @@ function Students() {
 
         <div style={{ marginTop: "50px" }}>
           <h3 style={{ borderBottom: "3px solid black" }}>Student List</h3>
-          {/* Step 2: Add the select element */}
-          <select
+         {/* Step 2: Add the select element */}
+           <select
             style={styles.semesterDropdown}
             onChange={handleSemesterChange}
             value={selectedSemester}

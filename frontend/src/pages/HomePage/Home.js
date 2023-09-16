@@ -62,7 +62,8 @@ function Home() {
             </div>
             <p className="home-paragraph">
               {" "}
-              "Say goodbye to long queues and hello to easy online fee payments through PayEase - your gateway to efficiency."
+              "Say goodbye to long queues and hello to easy online fee payments
+              through PayEase - your gateway to efficiency."
             </p>
           </div>
           <div className="col-md-6 ">
@@ -101,7 +102,7 @@ function Home() {
                 <MdEmail /> Email :payeasea321@gmail.com
               </p>
               <p>
-                <MdPhone /> Phone : +977981517656
+                <MdPhone /> Phone : +977981517656/+9779815144872
               </p>
               <p>
                 <MdLocationOn /> Address : vyas-5
@@ -109,16 +110,16 @@ function Home() {
               <div className="social-links">
                 <h5>Social---</h5>
                 <a href="https://www.facebook.com">
-                  <FaFacebook className="social-icon" />
+                  <FaFacebook className="social-icon grow-on-hover" />
                 </a>
                 <a href="https://www.twitter.com">
-                  <FaTwitter className="social-icon" />
+                  <FaTwitter className="social-icon  grow-on-hover" />
                 </a>
                 <a href="https://www.instagram.com">
-                  <FaInstagram className="social-icon" />
+                  <FaInstagram className="social-icon  grow-on-hover" />
                 </a>
                 <a href="https://www.linkedin.com">
-                  <FaLinkedin className="social-icon" />
+                  <FaLinkedin className="social-icon  grow-on-hover" />
                 </a>
               </div>
             </div>
@@ -133,19 +134,19 @@ function Home() {
         <h3>Team Members</h3>
         <div className="row">
           <div className="col-md-3">
-            <img src={Bhuwan} alt="" className="Bhuwan" />
+            <img src={Bhuwan} alt="" className="Bhuwan grow-on-hover" />
             <h5>Bhuwan Darai</h5>
           </div>
           <div className="col-md-3">
-            <img src={Bibek} alt="" className="Bibek" />
+            <img src={Bibek} alt="" className="Bibek grow-on-hover" />
             <h5>Bibek Thapa</h5>
           </div>
           <div className="col-md-3">
-            <img src={Kumar} alt="" className="Kumar" />
+            <img src={Kumar} alt="" className="Kumar grow-on-hover" />
             <h5>Kumar Thapa</h5>
           </div>
           <div className="col-md-3">
-            <img src={Yujin} alt="" className="Yujin" />
+            <img src={Yujin} alt="" className="Yujin grow-on-hover" />
             <h5>Yujin Thapa</h5>
           </div>
           <p id="copyright">All Right Reserve @PayEase2023</p>

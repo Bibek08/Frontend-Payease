@@ -7,7 +7,7 @@ import { FaBars } from "react-icons/fa";
 import { NavLink ,Link } from "react-router-dom";
 
 const Sidebar = ({ children }) => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(true);
 
   const toggle = () => setIsOpen(!isOpen);
 

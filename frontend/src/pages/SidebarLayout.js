@@ -12,6 +12,7 @@ import Payments from "./payment/Payments";
 import Profile from "./My profile/Profile";
 import CreateStudent from "./createStudent/CreateStudent";
 import CreateAccountant from "./Accountant/CreateAccountant";
+import NotificationDetail from "./Notifications/NotificationDetail";
 
 function SidebarLayout() {
   return (
@@ -24,6 +25,7 @@ function SidebarLayout() {
         <Route path="/accountant" element={<Accountant />} />
         <Route path="/feeStructure" element={<FeeStructure />} />
         <Route path="/notification" element={<Notification />} />
+        <Route path="/NotificationDetail" element={<NotificationDetail />} />
         <Route path="/Payments" element={<Payments />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/CreateStudent" element={<CreateStudent />} />

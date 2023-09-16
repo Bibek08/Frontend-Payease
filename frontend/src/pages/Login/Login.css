@@ -19,6 +19,7 @@
 .form-container {
   width: 100%;
   height: 80%;
+  font-size: 17px;
   padding: 30px;
   border-radius: 5px;
   background-color: #f4f4f4;
@@ -36,7 +37,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-form .Uemail {
+ .UserEmail {
   border-radius: 5px;
   padding: 4px 6px;
   margin-bottom: 10px;
@@ -44,18 +45,22 @@ form .Uemail {
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-form .Upwd {
+
+.UserPwd {
   border-radius: 5px;
   margin-left: 9px;
   border: none;
   padding: 4px 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
+} 
 .buttons {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
   text-align: center;
   margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
+  margin-left: 73px;
+  margin-bottom: 15px;
 }
 .login {
   text-decoration: none;
@@ -65,7 +70,7 @@ form .Upwd {
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
-.signin {
+/* .signin {
   padding: 5px;
   border: 2px solid green;
   border-radius: 5px;
@@ -73,22 +78,20 @@ form .Upwd {
   text-decoration: none;
   color: black;
   margin-left: 5px;
-}
+} */
 .login:hover {
   background-color: blue;
   color: white;
 }
-.signin:hover {
+/* .signin:hover {
   background-color: green;
   color: white;
-}
+} */
 .backtohomepage a {
   text-decoration: none;
   color: black;
 }
-.movetohome {
-  margin-left: 100px;
-}
+
 .backtohomepage a:hover {
   color: blue;
 }

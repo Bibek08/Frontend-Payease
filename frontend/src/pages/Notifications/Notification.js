@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../Notifications/Notification.css";
 const Notification = () => {
   return (
@@ -12,7 +13,7 @@ const Notification = () => {
           <p>
             The student has paid his Due amount of this semester. You can
             collect the information from here.{" "}
-            <button className="seepaydetail">see details</button>
+            <Link to="/NotificationDetail" className="seepaydetail">see details</Link>
           </p>
         </div>
         <div className="pay-detail">
@@ -20,7 +21,7 @@ const Notification = () => {
           <p>
             The student has paid his Due amount of this semester. You can
             collect the information from here.{" "}
-            <button className="seepaydetail">see details</button>
+            <Link to="/NotificationDetail" className="seepaydetail">see details</Link>
           </p>
         </div>
         <div className="pay-detail">
@@ -28,7 +29,7 @@ const Notification = () => {
           <p>
             The student has paid his Due amount of this semester. You can
             collect the information from here.{" "}
-            <button className="seepaydetail">see details</button>
+            <Link to="/NotificationDetail" className="seepaydetail">see details</Link>
           </p>
         </div>
         <div className="pay-detail">
@@ -36,7 +37,7 @@ const Notification = () => {
           <p>
             The student has paid his Due amount of this semester. You can
             collect the information from here.{" "}
-            <button className="seepaydetail">see details</button>
+            <Link to="/NotificationDetail" className="seepaydetail">see details</Link>
           </p>
         </div>
         <div className="pay-detail">
@@ -44,7 +45,15 @@ const Notification = () => {
           <p>
             The student has paid his Due amount of this semester. You can
             collect the information from here.{" "}
-            <button className="seepaydetail">see details</button>
+            <Link to="/NotificationDetail" className="seepaydetail">see details</Link>
+          </p>
+        </div>
+        <div className="pay-detail">
+          <h2>Bijaya Ale</h2>
+          <p>
+            The student has paid his Due amount of this semester. You can
+            collect the information from here.{" "}
+            <Link to="/NotificationDetail" className="seepaydetail">see details</Link>
           </p>
         </div>
       </div>
@@ -53,3 +62,10 @@ const Notification = () => {
 };
 
 export default Notification;
+// import React from "react";
+
+// function Notification() {
+//   return <div>Notification</div>;
+// }
+
+// export default Notification;

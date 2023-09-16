@@ -1,16 +1,12 @@
 import React from "react";
 import "../Dashboard/Dashboard.css";
 import {
-  PieChart,
-  Pie,
-  Cell,
   BarChart,
   Bar,
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Label,
 } from "recharts";
 import "bootstrap/dist/css/bootstrap.min.css";
 import * as FaIcons from "react-icons/fa";
@@ -35,40 +31,40 @@ const Dashboard = () => {
   const currentDate = moment().format("MMMM Do, YYYY"); // Get the current date using moment.js
 
   /*.............for chart data/...................*/
-  const data = [
-    { name: "Semester 1", students: 30 },
-    { name: "Semester 2", students: 20 },
-    { name: "Semester 3", students: 27 },
-    { name: "Semester 4", students: 28 },
-    { name: "Semester 5", students: 32 },
-    { name: "Semester 6", students: 35 },
-    { name: "Semester 7", students: 26 },
-    { name: "Semester 8", students: 31 },
-    { name: "Semester 9", students: 24 },
-  ];
+  // const data = [
+  //   { name: "Semester 1", students: 30 },
+  //   { name: "Semester 2", students: 20 },
+  //   { name: "Semester 3", students: 27 },
+  //   { name: "Semester 4", students: 28 },
+  //   { name: "Semester 5", students: 32 },
+  //   { name: "Semester 6", students: 35 },
+  //   { name: "Semester 7", students: 26 },
+  //   { name: "Semester 8", students: 31 },
+  //   { name: "Semester 9", students: 24 },
+  // ];
   // Define a custom color palette for each semester
-  const semesterColors = {
-    "Semester 1": "#FF5733",
-    "Semester 2": "#FFC300",
-    "Semester 3": "#C70039",
-    "Semester 4": "#900C3F",
-    "Semester 5": "#581845",
-    "Semester 6": "#00FF00",
-    "Semester 7": "#FF0000",
-    "Semester 8": "#0000FF",
-    "Semester 9": "#800000",
-  };
+  // const semesterColors = {
+  //   "Semester 1": "#FF5733",
+  //   "Semester 2": "#FFC300",
+  //   "Semester 3": "#C70039",
+  //   "Semester 4": "#900C3F",
+  //   "Semester 5": "#581845",
+  //   "Semester 6": "#00FF00",
+  //   "Semester 7": "#FF0000",
+  //   "Semester 8": "#0000FF",
+  //   "Semester 9": "#800000",
+  // };
   /*.............for bar chart data/...................*/
   const barChartData = [
-    { name: "Semester 1", boys: 15, girls: 15 },
-    { name: "Semester 2", boys: 10, girls: 10 },
-    { name: "Semester 3", boys: 13, girls: 14 },
-    { name: "Semester 4", boys: 14, girls: 14 },
-    { name: "Semester 5", boys: 16, girls: 16 },
-    { name: "Semester 6", boys: 18, girls: 17 },
-    { name: "Semester 7", boys: 12, girls: 14 },
-    { name: "Semester 8", boys: 15, girls: 16 },
-    { name: "Semester 9", boys: 12, girls: 12 },
+    { name: "Sem 1", boys: 15, girls: 15 },
+    { name: "Sem 2", boys: 10, girls: 10 },
+    { name: "Sem 3", boys: 13, girls: 14 },
+    { name: "Sem 4", boys: 14, girls: 14 },
+    { name: "Sem 5", boys: 16, girls: 16 },
+    { name: "Sem 6", boys: 18, girls: 17 },
+    { name: "Sem 7", boys: 12, girls: 14 },
+    { name: "Sem 8", boys: 15, girls: 16 },
+    { name: "Sem 9", boys: 12, girls: 12 },
   ];
 
   // Custom color palette for boys and girls bars

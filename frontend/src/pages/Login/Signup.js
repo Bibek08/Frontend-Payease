@@ -38,7 +38,7 @@ function Signup() {
         <div className="submitbtn">
           <button>Submit</button>
         </div>
-        <Link to="/" className="backtologin">
+        <Link to="/Login" className="backtologin">
           Back to Login
         </Link>
       </form>

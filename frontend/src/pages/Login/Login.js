@@ -22,7 +22,7 @@ function Login() {
                     <input
                       type="email"
                       placeholder="Enter Email"
-                      className="Uemail"
+                      className="UserEmail"
                     />
                   </div>
                   <div>
@@ -30,22 +30,18 @@ function Login() {
                     <input
                       type="password"
                       placeholder="Enter Password"
-                      className="Upwd"
+                      className="UserPwd"
                     />
                   </div>
                   <div className="buttons">
                     <Link to="/Dashboard" className="login" role="button">
                       Login
                     </Link>
-
-                    <Link to="/SignUp" className="signin" role="button">
-                      Sign Up
-                    </Link>
-                  </div>
-                  <div className="backtohomepage">
-                    <Link to="/" className="movetohome">
-                      Home page
-                    </Link>
+                    <div className="backtohomepage">
+                      <Link to="/" className="movetohome">
+                        Home page
+                      </Link>
+                    </div>
                   </div>
                 </form>
               </div>

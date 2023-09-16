@@ -10,7 +10,7 @@
 .hometop-container h3 {
   margin-left: 120px;
 }
-.hometop-container a{
+.hometop-container a {
   text-decoration: none;
   color: black;
 }
@@ -138,6 +138,18 @@
   width: 200px;
   border-radius: 350px;
 }
+ /*..................Grow on Hover effect..................*/
+
+.grow-on-hover {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.grow-on-hover:hover {
+  transform: scale(
+    1.1
+  ); /* Scale the image to 110% of its original size on hover */
+}
+
 #copyright {
   text-align: center;
   padding-top: 30px;
